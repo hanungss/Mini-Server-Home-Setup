@@ -30,9 +30,8 @@ Server ini menjalankan beberapa service dengan kebutuhan dan port yang sudah dia
 |--------------------|-------------|------|----------|--------|--------|
 | **AdGuardHome**    | 192.168.1.20 | 53   | DNS      | hanung | aktif |
 | **AdGuardHome Alt**| 192.168.1.20 | 8011 | Other    | hanung | aktif |
-| **systemd-resolved** | 192.168.1.20 | 53   | DNS      | zahra-pc | aktif |
 | **Tailscaled**     | 192.168.1.20 | 40539 / 65078 | VPN | hanung | aktif |
-| **Tailscaled**     | 192.168.1.20 | 58206 / 65107 | VPN | zahra-pc | aktif |
+
 
 ---
 
@@ -47,7 +46,7 @@ Server ini menjalankan beberapa service dengan kebutuhan dan port yang sudah dia
 | Service | IP           | Port     | Protokol | Host   | Status |
 |---------|-------------|----------|----------|--------|--------|
 | **SMB** | 192.168.1.20 | 139/445 | File     | hanung | aktif |
-| **SMB** | 192.168.1.20 | 139/445 | File     | zahra-pc | aktif |
+
 
 ---
 
@@ -55,9 +54,7 @@ Server ini menjalankan beberapa service dengan kebutuhan dan port yang sudah dia
 | Service            | IP           | Port   | Protokol | Host     | Status |
 |--------------------|-------------|--------|----------|----------|--------|
 | **Plex**           | 192.168.1.20 | 32400 | Media    | hanung   | aktif |
-| **Plex**           | 192.168.1.20 | 32400 | Media    | zahra-pc | aktif |
-| **RDP (Gnome)**    | 192.168.1.20 | 3390  | Remote   | zahra-pc | aktif |
-| **AnyDesk**        | 192.168.1.20 | 7071  | Remote   | zahra-pc | aktif |
+
 
 ---
 
