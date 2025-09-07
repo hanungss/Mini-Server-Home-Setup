@@ -1,5 +1,9 @@
 # Dokumentasi Jaringan Server
 
+## Spesifikasi Server
+Server ini menggunakan Notebook ASUS seri X452CP dengan mode headless dengan RAM serta HDD bawaan. Dengan spesifikasi seperti ini sudah dapat menangani kebutuhan rumahan yang ada.
+![Server Specification](Docs/Server_Spek.png)
+
 ## Ringkasan
 Server ini memiliki beberapa interface jaringan aktif berdasarkan hasil `ifconfig`.  
 Interface terbagi menjadi:
