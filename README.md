@@ -2,6 +2,20 @@
 
 Dokumentasi ini berisi ringkasan konfigurasi, layanan aktif, serta topologi jaringan server **rumahan**.  
 Server digunakan untuk kebutuhan sehari-hari seperti web service, database, media server, file sharing, dan VPN.
+## Aplikasi yang Digunakan di Server
+
+[![AdGuardHome](https://img.shields.io/badge/AdGuardHome-DNS-blue.svg)](https://github.com/AdguardTeam/AdGuardHome)
+[![Caddy](https://img.shields.io/badge/Caddy-WebServer-brightgreen.svg)](https://caddyserver.com/)
+[![Docker](https://img.shields.io/badge/Docker-Container-2496ED.svg)](https://www.docker.com/)
+[![Plex](https://img.shields.io/badge/Plex-Media-orange.svg)](https://www.plex.tv/)
+[![MariaDB](https://img.shields.io/badge/MariaDB-Database-003545.svg)](https://mariadb.org/)
+[![Aria2](https://img.shields.io/badge/Aria2-Downloader-yellow.svg)](https://aria2.github.io/)
+[![Node.js](https://img.shields.io/badge/Node.js-JSRuntime-339933.svg)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-Backend-3776AB.svg)](https://www.python.org/)
+[![CUPS](https://img.shields.io/badge/CUPS-Printer-red.svg)](https://openprinting.github.io/cups/)
+[![SMB](https://img.shields.io/badge/SMB-FileShare-lightgrey.svg)](https://www.samba.org/)
+[![Tailscale](https://img.shields.io/badge/Tailscale-VPN-black.svg)](https://tailscale.com/)
+
 
 ---
 
@@ -171,17 +185,4 @@ Visualisasi dari hasil `ifconfig`:
 4. VPN ganda: **WireGuard (gateway utama)** & **Tailscale (remote access)**.  
 5. Semua interface sehat, packet drop sangat kecil.  
 
-## Aplikasi yang Digunakan di Server
-
-[![AdGuardHome](https://img.shields.io/badge/AdGuardHome-DNS-blue.svg)](https://github.com/AdguardTeam/AdGuardHome)
-[![Caddy](https://img.shields.io/badge/Caddy-WebServer-brightgreen.svg)](https://caddyserver.com/)
-[![Docker](https://img.shields.io/badge/Docker-Container-2496ED.svg)](https://www.docker.com/)
-[![Plex](https://img.shields.io/badge/Plex-Media-orange.svg)](https://www.plex.tv/)
-[![MariaDB](https://img.shields.io/badge/MariaDB-Database-003545.svg)](https://mariadb.org/)
-[![Aria2](https://img.shields.io/badge/Aria2-Downloader-yellow.svg)](https://aria2.github.io/)
-[![Node.js](https://img.shields.io/badge/Node.js-JSRuntime-339933.svg)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python-Backend-3776AB.svg)](https://www.python.org/)
-[![CUPS](https://img.shields.io/badge/CUPS-Printer-red.svg)](https://openprinting.github.io/cups/)
-[![SMB](https://img.shields.io/badge/SMB-FileShare-lightgrey.svg)](https://www.samba.org/)
-[![Tailscale](https://img.shields.io/badge/Tailscale-VPN-black.svg)](https://tailscale.com/)
 
