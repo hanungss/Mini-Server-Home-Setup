@@ -15,6 +15,9 @@ Server digunakan untuk kebutuhan sehari-hari seperti web service, database, medi
 [![CUPS](https://img.shields.io/badge/CUPS-Printer-red.svg)](https://openprinting.github.io/cups/)
 [![SMB](https://img.shields.io/badge/SMB-FileShare-lightgrey.svg)](https://www.samba.org/)
 [![Tailscale](https://img.shields.io/badge/Tailscale-VPN-black.svg)](https://tailscale.com/)
+[![ProtonVPN](https://img.shields.io/badge/ProtonVPN-SecureVPN-6d4aff.svg)](https://protonvpn.com/)
+[![WireGuard](https://img.shields.io/badge/WireGuard-VPN-88171A.svg)](https://www.wireguard.com/)
+[![Nginx](https://img.shields.io/badge/Nginx-ReverseProxy-009639.svg)](https://nginx.org/)
 
 
 ---
