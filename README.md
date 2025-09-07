@@ -3,12 +3,12 @@
 ## Spesifikasi Server
 Server ini menggunakan Notebook ASUS seri X452CP dengan mode headless dengan RAM serta HDD bawaan. Dengan spesifikasi seperti ini sudah dapat menangani kebutuhan rumahan yang ada.
 Berikut ini adalah spesifikasi lengkapnya :
-ASUS X452CP
-CPU type    : Intel® Core™ i3-3217U
-Clock Speed : 1.80 GHz
-RAM         : 2GB 
-OS          : Ubuntu 24.04.3 LTS
-Lokal IP    : 192.168.1.20 (Static IP)
+ASUS X452CP  
+CPU type    : Intel® Core™ i3-3217U  
+Clock Speed : 1.80 GHz  
+RAM         : 2GB  
+OS          : Ubuntu 24.04.3 LTS  
+Lokal IP    : 192.168.1.20 (Static IP)  
 ![Server Specification](Docs/Server_Spek.png)
 
 ## Ringkasan
@@ -101,10 +101,13 @@ Interface terbagi menjadi:
   - br-f4706f414b66 → `172.19.0.1`
 
 ### VPN
+Mekanisme VPN disini untuk penggunaan pada jaringan lokal dan remote server secara free namun legal.
 - **WireGuard (wg0)**: `10.2.0.2`  
+Wireguard disini digunakan untuk VPN gateway semua perangkat yang terhubung ke SSID di jaringan rumah. Client tinggal mengatur gateway ke 192.168.1.20 agar terhubung ke VPN. Service VPN menggunakan Proton VPN dengan server SG, protokol ini memungkinkan Proton berjalan di atas wireguard sehingga disisi proton hanya ada 1 perangkat yang terhubung yaitu server 192.168.1.20 yang kemudian menjadi gateway seluruh perangkat yang ada dirumah.  
   → VPN aktif, banyak traffic (224 MB RX).  
 - **Tailscale (tailscale0)**: `100.119.11.49`  
   → VPN overlay via WireGuard, sedikit traffic.
+Tailscale digunakan untuk kebutuhan remote server secara free. Sehingga kebutuhan cetak file maupun sharing file dapat dilakukan dari jarak jauh melalui mekanisme Tailscale tanpa membutuhkan IP Publik yang berbayar.
 
 ---
 
